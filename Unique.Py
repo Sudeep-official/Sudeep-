@@ -1,0 +1,18 @@
+# Input 8 no from the user and display all the unique values 
+s = set()
+n = input("Enter the number: ")
+s.add(int(n))
+n = input("Enter the number: ")
+s.add(int(n))
+n = input("Enter the number: ")
+s.add(int(n))
+n = input("Enter the number: ")
+s.add(int(n))
+n = input("Enter the number: ")
+s.add(int(n))
+n = input("Enter the number: ")
+s.add(int(n))
+n = input("Enter the number: ")
+s.add(int(n))
+
+print(s)
